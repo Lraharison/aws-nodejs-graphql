@@ -1,0 +1,28 @@
+{
+  "name": "aws-nodejs-graphql",
+  "version": "1.1.0",
+  "description": "A Node.js starter for the Serverless Framework with async/await and unit test support",
+  "main": "src/handler.js",
+  "scripts": {
+    "test": "serverless-bundle test",
+    "start": "sls offline start"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnomalyInnovations/serverless-nodejs-starter.git"
+  },
+  "devDependencies": {
+    "serverless-bundle": "^1.2.5",
+    "serverless-dotenv-plugin": "^2.1.1",
+    "serverless-dynamodb-local": "^0.2.39",
+    "serverless-offline": "^5.3.3",
+    "sinon": "^8.1.1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.619.0",
+    "graphql": "^14.6.0",
+    "uuid": "^3.4.0"
+  }
+}
